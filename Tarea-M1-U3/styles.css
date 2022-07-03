@@ -48,6 +48,10 @@ form {
     padding: 0 10px;
 }
 
+audio {
+    width: 100%;
+}
+
 .info {
     margin-top: 10px;
     display: flex;
