@@ -54,17 +54,17 @@ audio {
     width: 100%;
 }
 
-#personal-data h2 {
+.personal-data h2 {
     font-variant: small-caps;
 }
 
-#personal-data li:hover, .objetivos li:hover, .estudios p:hover, .experiencia strong:hover, form li:hover {
+.personal-data li:hover, #objetivos li:hover, #estudios p:hover, #experiencia strong:hover, form li:hover {
     background-color: #e6dcdc;
     box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
     transition: box-shadow 0.1s linear, background-color 0.1s ease-in;
 }
 
-#personal-data li, .objetivos li, .estudios p, .experiencia strong, form li {
+.personal-data li, #objetivos li, #estudios p, #experiencia strong, form li {
     transition: box-shadow 0.5s linear, background-color 0.7s ease-in;
 }
 
@@ -76,11 +76,11 @@ audio {
     gap: 0 45px;
 }
 
-#personal-data {
+.personal-data {
     align-self: center;
 }
 
-#professional-data div {
+.professional-data div {
     width: 60%;
     margin: 0 auto;
 }
