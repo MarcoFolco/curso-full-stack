@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Contacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://kit.fontawesome.com/0ea2f29246.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1><i class="fa-brands fa-wpforms"></i> FORMULARIO DE CONTACTO <i class="fa-brands fa-wpforms"></i></h1>
+    </header>
+    <main>
+        <form action="" method="">
+            <p>
+                <label for="nombre"><i class="fa-regular fa-user"></i> Nombre: </label>
+                <input type="text" name="name" required />
+            </p>
+            <p>
+                <label for="email"><i class="fa-regular fa-envelope"></i> Correo electrónico: </label>
+                <input type="email" name="email" required />
+            </p>
+            <p>
+                <label><i class="fa-regular fa-clock"></i> Horarios de contacto:</label>
+                <ul>
+                    <li>
+                        <input type="checkbox" name="horarios[]" value="08-12" id="temprano" />
+                        <label for="temprano">08hs a 12hs</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="horarios[]" value="12-16" id="tarde" />
+                        <label for="temprano">12hs a 16hs</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="horarios[]" value="16-20" id="tarde" />
+                        <label for="temprano">16hs a 20hs</label>
+                    </li>
+                </ul>
+            </p>
+            <p>
+                <label for="motivo"><i class="fa-regular fa-clipboard"></i> Motivo de consulta: </label>
+                <ul>
+                    <li>
+                        <input type="radio" name="motivo" value="Entrevista" />
+                        <label>Entrevista laboral</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="motivo" value="Colaboración" />
+                        <label>Solicitud de colaboración</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="motivo" value="Colaboración" />
+                        <label>Otro</label>
+                    </li>
+                </ul>
+            </p>
+            <p>
+                <label for="motivo-otro"><i class="fa-regular fa-comment-dots"></i> Motivo o comentarios adicionales: </label> 
+                <textarea name="motivo-otro" 
+                          cols="30" 
+                          rows="10" 
+                          placeholder="Escriba aquí..."
+                          id="text-motivo"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Enviar" />
+                <input type="reset" value="Borrar" />
+            </p>
+        </form>
+    </main>
+</body>
+</html>
