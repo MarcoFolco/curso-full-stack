@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -7,7 +9,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 95vh;
+    height: 100vh;
 }
 
 .container {
@@ -22,9 +24,13 @@ body {
 .box {
     width: calc(100% / 3);
     height: calc(100% / 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box p {
     color: white;
-    text-align: center;
-    line-height: 200px;
 }
 
 .box1 {
