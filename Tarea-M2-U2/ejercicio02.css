@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+.container {
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.box {
+    width: calc(100% / 3);
+    height: calc(100% / 3);
+    color: white;
+    text-align: center;
+    line-height: 200px;
+}
+
+.box1 {
+    background-color: red;
+}
+
+.box2 {
+    background-color: blue;
+}
+
+.box3 {
+    background-color: green;
+}
