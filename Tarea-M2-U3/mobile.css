@@ -22,12 +22,12 @@ li>a {
 }
 nav {
     width: 100%;
-    margin-bottom: 1px;
+    border-bottom: 1px solid black;
 }
 section {
     width: 100%;
     margin-left: 0;
-    margin-bottom: 1px;
+    border-bottom: 1px solid black;
     padding: 10px;
 }
 aside {
